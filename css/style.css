@@ -1,62 +1,69 @@
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
-body{
-	margin:1%;
-	padding:1%;
-	font-size:150%;
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: "Times New Roman", sans-serif;
 }
 
-
-/*Make the h1 heading bigger with a bold font*/
-h1{
-	font-size: 2em; 
-	font-weight: bold;
-}
-
-/*Style the images*/
-img{
-    height: 200px;
-    width:auto;
-    border: 3px solid blue;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-/*Make the h2 heading match h1*/
-h2{
-	font-size: 2em; 
-	font-weight: bold;
-}
-
-/*Improve the spacing for paragraphs AND headings*/
-p, h1, h2 {
+h1 {
+    font-size: 64px;
+    text-align: center;
     padding: 10px;
 }
 
-/*Add borders around the main components and some
-space too*/
-header, nav, main, h1, footer{
-	border: 2px solid grey;
-	margin: 10px 0;
+h2 {
+    font-size: 32px;
+    text-shadow: 4px 4px 2px #808080;
 }
 
-
-/*Change the styling for all of the list 
-items in the nav section*/
-nav li{
-	background-color: #ECFF4D;
-	padding:10px;
-	width:25%;
-	border:1px solid black;
-	display: inline-block;
-	width: 20%;
+p {
+    font-size: 24px;
+    padding-top: 15px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
 
+div {
+    min-height: 150px;
+    padding: 25px;
+}
 
-/*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
+#red {
+    background: #ff0000;
+    text-align: right;
+}
 
+#blue {
+    background: #0000ff;
+    text-align: left;
+}
 
+#yellow {
+    background: #ffff00;
+    text-align: right;
+}
+
+#yellow > h2, #yellow > p {
+    color: #000000;
+}
+
+#yellow > h2 {
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#green {
+    background: #008000;
+    text-align: left;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
 }
